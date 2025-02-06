@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .navbar-icon {
+            width: 30px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Site</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                    <img src="../resources/img/icon.jpg" alt="Navbar Icon" class="navbar-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center">My Projects</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../resources/img/project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">
+                            This project was to code an RRT algorithm. The rapidly exploring random tree is often used in robotics pathfinding
+                            as it allows semi-uniform exploration of an environment while remaining quick to run.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../resources/img/project2.png" class="card-img-top" alt="Hobby 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">
+                            This is an image of the codebase for a Discord bot I created during the COVID pandemic to allow my friends to 
+                            keep track of the COVID-19 data from their home and interact with it through discord. This bot also provided local information
+                            about gas prices, grocery store prices, and some other local news/weather information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../resources/img/project3.png" class="card-img-top" alt="Hobby 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">
+                            This application was developed to serve as a project/file management system for my own personal use. 
+                            I needed an application where I could easily share my projects across computers since I had a school laptop and personal desktop.
+                            This project used the Google Drive API and the python Kivy and KivyMD GUI libraries to create a user friendly and was styled after
+                            Google's Material Design criteria and elements. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Connect with me:</p>
+        
+        <a href="https://instagram.com/yourprofile" class="text-white me-3">
+            <i class="fab fa-instagram fs-3"></i>
+        </a>
+        <a href="https://github.com/yourprofile" class="text-white">
+            <i class="fab fa-github fs-3"></i>
+        </a>
+    </footer>
+    
+    
+</body>
+</html>
